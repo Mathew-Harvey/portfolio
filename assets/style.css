@@ -1,0 +1,12 @@
+.hideAboutMe {
+    visibility: hidden;
+}
+
+.modal-content {
+    background-color: white;
+}
+
+
+.body {
+    background-color: grey;
+}
