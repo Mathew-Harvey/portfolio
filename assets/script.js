@@ -1,7 +1,7 @@
 // About me text toggle
 
 $(document).ready(function () {
-    $('.aboutMeBtn').click(function () {
+    $('#aboutMeBtn').click(function () {
                $("#aboutMe").toggleClass("hideAboutMe");
                    }
     )
