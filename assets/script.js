@@ -1,18 +1,31 @@
-var showAboutMe = false
+// About me text toggle
 
 $(document).ready(function () {
     $('.aboutMeBtn').click(function () {
-        if (showAboutMe == false) {
-            showAboutMe = true
-            $("#timerEl").toggleClass("hideAboutMe");
-            // $(this).html('<i class="clock-icon fas fa-clock"></i><br />Show Timer');
-        } else {
-            showAboutMe = false
-            $("#aboutMe").toggleClass("hideAboutMe");
-            // $(this).html('<i class="clock-icon far fa-clock"></i><br />Hide Timer');
+               $("#aboutMe").toggleClass("hideAboutMe");
+                   }
+    )
+});
 
-        }
+$(document).ready(function () {
+    $('#closeAboutMe').click(function () {
+               $("#aboutMe").toggleClass("hideAboutMe");
+                   }
+    )
+});
 
+// Contact Me toggle
 
-    })
+$(document).ready(function () {
+    $('.contactMeBtn').click(function () {
+               $("#contactMe").toggleClass("hideContactMe");
+                   }
+    )
+});
+
+$(document).ready(function () {
+    $('#closeContactMe').click(function () {
+               $("#contactMe").toggleClass("hideContactMe");
+                   }
+    )
 });

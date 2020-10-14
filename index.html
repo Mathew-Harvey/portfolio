@@ -21,40 +21,131 @@
     <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
     <script type="text/javascript" src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
     <link rel="stylesheet" href="./assets/style.css" />
+
+
+    <!-- unsorted -->
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- remember, jQuery is completely optional -->
+    <script type='text/javascript' src='./assets/jquery-1.11.1.min.js'></script>
+    <script type='text/javascript' src='./assets/jquery.particleground.js'></script>
+    <script type='text/javascript' src='./assets/demo.js'></script>
 </head>
 
 <body class="body">
 
+    <div id="particles">
+     <div id="intro">
+          
+        
+    
+
+    <div class="headShot"><img src="./assets/img/Bio.jpg"></div>
+
+  <!--About Me Modal-->
     <button class="aboutMeBtn">About Me</button>
+      <div id="aboutMe" class="hideAboutMe">
+        <div class="modal-content">
+            <h3>Who am I?</h3>
+            I like to create. I am trained as a Scientist and love to learn. I have created things,
+            movements and experiences. Studying biology and building businesses has taught me to
+            build systems, to solve problems and present appropriately.
+            <br>
+            <br>
+            Whether I’m building
+            computer systems, software systems or human systems the key principles have remained
+            constant. Develop sound foundations that are fit for purpose and allow organic growth
+            and further development.
+            <br>
+            <br>
 
-    <!--Login Modal-->
-    <div id="aboutMe" class="hideAboutMe">
-            <div class="modal-content">
-                <h3>Who am I?</h3>
-                I like to create. I am trained as a Scientist and love to learn. I have created things,
-                movements and experiences. Studying biology and building businesses has taught me to
-                build systems, to solve problems and present appropriately.
-                <br>
-                <br>
-                Whether I’m building
-                computer systems, software systems or human systems the key principles have remained
-                constant. Develop sound foundations that are fit for purpose and allow organic growth
-                and further development.
-                <br>
-                <br>
+            As a graduate web developer I want to bring this experience to your organisation.
+            <br>
+            <br>
+            Def. <b>‘Nerd’</b>: <i>A nerd is someone who thinks the purpose of communication is
+                submitting
+                one's ideas to peer review.</i> - Joscha Bach 2018
+        </div>
+        <button id="closeAboutMe" class="modal-close is-large" aria-label="close"></button>
+    </div>
+   
 
-                As a graduate web developer I want to bring this experience to your organisation.
-                <br>
-                <br>
-                Def. <b>‘Nerd’</b>: <i>A nerd is someone who thinks the purpose of communication is
-                    submitting
-                    one's ideas to peer review.</i> - Joscha Bach 2018
+   <!--Contact Me Modal-->
+    <button class="contactMeBtn">Contact Me</button> 
+    <div id="contactMe" class="hideContactMe">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="page-header">
+                            <h1>Contact</h1>
+                        </div>
+                        <div class="row"> </div>
+                        <div class="col-md-3">
+        
+                        </div>
+                        <div class="col-md-9"></div>
+                        <div class="wrapper">
+                            <section id="main-content">
+                                <form>
+        
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Name</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="name@example.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Comments</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                    <button class="btn btn-primary" type="submit">Submit details</button>
+                                </form>
+                            </section>
+                        </div>
+                    </div>
+        
+                </div>
             </div>
         </div>
+        <button id="closeContactMe" class="modal-close is-large" aria-label="close"></button>
     </div>
-        <button class="modal-close is-large" aria-label="close"></button>
-    </div>
+   
 
+
+
+
+<!--The Bodyweight Gym Online App link button-->
+    <a href="https://mathew-harvey.github.io/The-Bodyweight-Gym-Online/index.html" target ="_blank" > <button
+            class="theBodyWeightGymOnlineAppBtn"> The Bodyweight Gym Online App</button></a>
+
+            <!--Weather App-->
+    <a href="https://mathew-harvey.github.io/weather-forecast/" target ="_blank" > <button
+        class="weatherAppBtn"> Weather App</button></a>
+
+        <!--Day Planner App-->
+    <a href="https://mathew-harvey.github.io/day-planner/" target ="_blank" > <button
+        class="dayPlannerAppBtn"> Day Planner App</button></a>
+
+         <!--Coding Quiz App-->
+    <a href="https://mathew-harvey.github.io/Code-Quiz/index.html" target ="_blank" > <button
+        class="codeQuizAppBtn"> Code Quiz App</button></a>
+    
+   <!--Git Hub link button-->
+   <a href="https://github.com/mathew-harvey" target ="_blank" > <button
+    class="gitHubBtn">Git Hub</button></a>
+
+<!--Linked In link button-->
+<a href="https://www.linkedin.com/in/mathew-harvey-0b778626/" target ="_blank" > <button
+    class="linkedInBtn"> Linked In</button></a>
+
+
+    <!--Email Me button-->
+    <a href="mailto:Mat@thebodyweightgym.net" target ="_blank" > <button
+        class="emailMeBtn"> email </button></a>
 
     <!-- Footer -->
     <!-- <div class="footer">
@@ -63,7 +154,11 @@
             <a class="contact" href="mailto:mat@thebodyweightgym.net">mat@thebodyweightgym.net</a>
         </div>
     </div> -->
+</div>
+</div>
+</div>
 
+</div>
     <!-- Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
