@@ -14,18 +14,4 @@ $(document).ready(function () {
     )
 });
 
-// Contact Me toggle
 
-$(document).ready(function () {
-    $('.contactMeBtn').click(function () {
-               $("#contactMe").toggleClass("hideContactMe");
-                   }
-    )
-});
-
-$(document).ready(function () {
-    $('#closeContactMe').click(function () {
-               $("#contactMe").toggleClass("hideContactMe");
-                   }
-    )
-});
