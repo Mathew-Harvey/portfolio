@@ -5,9 +5,7 @@ This application was designed using HTML, CSS, Javascript and JQuery.
 <br />
 <p>
 The styling was completed using the Bulma CSS framework, keeping the design simple and easy to follow. 
- 
-<br /> <br /> 
-
+ <br />
 ## Link to Deployed Application
 https://mathew-harvey.github.io/portfolio/
 <br /> 
