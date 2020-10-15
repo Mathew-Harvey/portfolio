@@ -20,7 +20,7 @@ Mat Harvey<br/>
  
  <strong>Home Page</strong>
 <br /> 
-<img src="/assets/img/screenshotsscreenshot1.png">
+<img src="/assets/img/screenshotsscreenshot1.jpg">
 <br /> <br /> 
 <strong>About Me Overlay</strong>
  <br />
@@ -35,4 +35,3 @@ Mat Harvey<br/>
 <img src="/assets/img/screenshotsscreenshot4.png">
 <br> <br />
 
-![favs](https://user-images.githubusercontent.com/62285850/95646680-a10e3a80-0afd-11eb-9e42-40b819ff654f.JPG)
