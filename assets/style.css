@@ -22,19 +22,15 @@
   padding-top: 100px;
 }
 
-
 .body {
     background-color: black;
 }
 
-img {
+#headShot {
   border-radius: 50%;
   width: 300px;
-  height: auto;
-  
- 
+  height: auto; 
 }
-
 
 /* Tooltip container */
 .tooltip {
@@ -56,7 +52,7 @@ img {
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
-  width: 120px;
+  width: 300px;
   top: 100%;
   left: 50%;
   margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
@@ -121,7 +117,7 @@ body {
 
 
 @media only screen and (max-width: 568px) { 
-  img {
+  #headShot {
     border-radius: 50%;
     width: 150px;
     height: auto;
