@@ -20,7 +20,7 @@ Mat Harvey<br/>
  
  <strong>Home Page</strong>
 <br /> 
-<img src="./assets/img/screenshotsscreenshot1.jpg">
+<img src="./assets/img/screenshot1.jpg">
 <br /> <br /> 
 <strong>About Me Overlay</strong>
  <br />
