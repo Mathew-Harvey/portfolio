@@ -20,18 +20,18 @@ Mat Harvey<br/>
  
  <strong>Home Page</strong>
 <br /> 
-ScreenShot: <img src="/assets/screenshot1.jpg">
+<img src="/assets/screenshot1.jpg">
 <br /> <br /> 
 <strong>About Me Overlay</strong>
  <br />
-<img src="/assets/img/screenshotsscreenshot2.png">
+<img src="/assets/screenshot2.jpg">
 <br /> <br /> 
 <strong>Application Pop-up</strong>
 <br /> 
-<img src="/assets/img/screenshotsscreenshot3.png">
+<img src="/assets/screenshot3.jpg">
 <br> <br /> 
 <strong>Mobile</strong>
 <br /> 
-<img src="/assets/img/screenshotsscreenshot4.png">
+<img src="/assets/screenshot4.jpg">
 <br> <br />
 
