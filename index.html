@@ -29,6 +29,11 @@
     <!-- unsorted -->
 
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+
     <!-- remember, jQuery is completely optional -->
     <script type='text/javascript' src='./assets/jquery-1.11.1.min.js'></script>
     <script type='text/javascript' src='./assets/jquery.particleground.js'></script>
@@ -36,8 +41,31 @@
 </head>
 
 <body class="body">
+    <div id="particles" class="closeAboutMe">
+        <div id="aboutMe" class="hideAboutMe">
 
-    <div id="particles">
+            I like to create. I am trained as a Scientist and love to learn. I have created things,
+            movements and experiences. Studying biology and building businesses has taught me to
+            build systems, to solve problems and present appropriately.
+            <br>
+            <br>
+            Whether I’m building
+            computer systems, software systems or human systems the key principles have remained
+            constant. Develop sound foundations that are fit for purpose and allow organic growth
+            and further development.
+            <br>
+            <br>
+
+            As a graduate web developer I want to bring this experience to your organisation.
+            <br>
+            <br>
+            Def. <b>‘Nerd’</b>: <i>A nerd is someone who thinks the purpose of communication is
+                submitting
+                one's ideas to peer review.</i> - Joscha Bach 2018
+                <br><br><br>
+                <button id="closeAboutMe"><a class="delete is-large"></a></button>
+        </div>
+
         <div id="intro">
 
 
@@ -49,95 +77,54 @@
 
 
             <br><br><br><br><br><br>
-            <!--About Me Button-->
-            <div class="tooltip"><input type="image" class="" id="aboutMeBtn" name="imgbtn"
-                    src="./assets/img/icon/Contacts.png" alt="About Me">
-                <span class="tooltiptext">About Me</span>
-            </div>
-            <!--The Bodyweight Gym Online App link button-->
-            <div class="tooltip"><a href="https://mathew-harvey.github.io/The-Bodyweight-Gym-Online/index.html"
-                    target="_blank"><input type="image" class="" name="imgbtn" src="./assets/img/icon/gym.png"
-                        alt="The Bodyweight Gym App">
-                    <span class="tooltiptext">The Bodyweight Gym Application</span></a>
-            </div>
-            <!--Weather App-->
-            <div class="tooltip"><a href="https://mathew-harvey.github.io/weather-forecast/" target="_blank"><input
-                        type="image" class="" name="imgbtn" src="./assets/img/icon/weather.png" alt="Weather App">
-                    <span class="tooltiptext">Weather Application</span></a>
-            </div>
-            <!--Day Planner App-->
-            <div class="tooltip"><a href="https://mathew-harvey.github.io/day-planner/" target="_blank"><input
-                        type="image" class="" name="imgbtn" src="./assets/img/icon/Calendar.png"
-                        alt="Work Day Planner App">
-                    <span class="tooltiptext">Work Day Planner Application</span></a>
-            </div>
-            <!--Coding Quiz App-->
-            <div class="tooltip"><a href="https://mathew-harvey.github.io/Code-Quiz/index.html" target="_blank"><input
-                        type="image" class="" name="imgbtn" src="./assets/img/icon/quiz.png" alt="Quiz App">
-                    <span class="tooltiptext">Coding Quiz Application</span></a>
-            </div>
-            <!--Git Hub link button-->
-            <div class="tooltip"><a href="https://github.com/mathew-harvey" target="_blank"><input type="image" class=""
-                        name="imgbtn" src="./assets/img/icon/github.png" alt="Github">
-                    <span class="tooltiptext">Github Repo</span></a>
-            </div>
-            <!-- Linked In link button -->
-
-            <div class="tooltip"><a href="https://www.linkedin.com/in/mathew-harvey-0b778626" target="_blank"><input
-                        type="image" class="" name="imgbtn" src="./assets/img/icon/linkedin.png" alt="LinkedIn">
-                    <span class="tooltiptext">Linked In</span></a>
-            </div>
-            <!--Email Me button-->
-            <div class="tooltip"><a href="mailto:mathewharvey@gmail.com" target="_blank"><input type="image" class=""
-                        name="imgbtn" src="./assets/img/icon/Mail.png" alt="Email Me">
-                    <span class="tooltiptext">Email Me</span></a>
-            </div>
-
-
-            <div id="aboutMe" class="hideAboutMe">
-                <div class="modal-content">
-                    <h3>Who am I?</h3>
-                    I like to create. I am trained as a Scientist and love to learn. I have created things,
-                    movements and experiences. Studying biology and building businesses has taught me to
-                    build systems, to solve problems and present appropriately.
-                    <br>
-                    <br>
-                    Whether I’m building
-                    computer systems, software systems or human systems the key principles have remained
-                    constant. Develop sound foundations that are fit for purpose and allow organic growth
-                    and further development.
-                    <br>
-                    <br>
-
-                    As a graduate web developer I want to bring this experience to your organisation.
-                    <br>
-                    <br>
-                    Def. <b>‘Nerd’</b>: <i>A nerd is someone who thinks the purpose of communication is
-                        submitting
-                        one's ideas to peer review.</i> - Joscha Bach 2018
+            <div id="navBtns">
+                <!--About Me Button-->
+                <div class="tooltip"><input type="image" class="" id="aboutMeBtn" name="imgbtn"
+                        src="./assets/img/icon/Contacts.png" alt="About Me">
+                    <span class="tooltiptext">About Me</span>
                 </div>
-                <button id="closeAboutMe" class="modal-close is-large" aria-label="close"></button>
+                <!--The Bodyweight Gym Online App link button-->
+                <div class="tooltip"><a href="https://mathew-harvey.github.io/The-Bodyweight-Gym-Online/index.html"
+                        target="_blank"><input type="image" class="" name="imgbtn" src="./assets/img/icon/gym.png"
+                            alt="The Bodyweight Gym App">
+                        <span class="tooltiptext">The Bodyweight Gym Application</span></a>
+                </div>
+                <!--Weather App-->
+                <div class="tooltip"><a href="https://mathew-harvey.github.io/weather-forecast/" target="_blank"><input
+                            type="image" class="" name="imgbtn" src="./assets/img/icon/weather.png" alt="Weather App">
+                        <span class="tooltiptext">Weather Application</span></a>
+                </div>
+                <!--Day Planner App-->
+                <div class="tooltip"><a href="https://mathew-harvey.github.io/day-planner/" target="_blank"><input
+                            type="image" class="" name="imgbtn" src="./assets/img/icon/Calendar.png"
+                            alt="Work Day Planner App">
+                        <span class="tooltiptext">Work Day Planner Application</span></a>
+                </div>
+                <!--Coding Quiz App-->
+                <div class="tooltip"><a href="https://mathew-harvey.github.io/Code-Quiz/index.html"
+                        target="_blank"><input type="image" class="" name="imgbtn" src="./assets/img/icon/quiz.png"
+                            alt="Quiz App">
+                        <span class="tooltiptext">Coding Quiz Application</span></a>
+                </div>
+                <!--Git Hub link button-->
+                <div class="tooltip"><a href="https://github.com/mathew-harvey" target="_blank"><input type="image"
+                            class="" name="imgbtn" src="./assets/img/icon/github.png" alt="Github">
+                        <span class="tooltiptext">Github Repo</span></a>
+                </div>
+                <!-- Linked In link button -->
+
+                <div class="tooltip"><a href="https://www.linkedin.com/in/mathew-harvey-0b778626" target="_blank"><input
+                            type="image" class="" name="imgbtn" src="./assets/img/icon/linkedin.png" alt="LinkedIn">
+                        <span class="tooltiptext">Linked In</span></a>
+                </div>
+                <!--Email Me button-->
+                <div class="tooltip"><a href="mailto:mathewharvey@gmail.com" target="_blank"><input type="image"
+                            class="" name="imgbtn" src="./assets/img/icon/Mail.png" alt="Email Me">
+                        <span class="tooltiptext">Email Me</span></a>
+
+                </div>
             </div>
-
-
-
-
-
-
-            <div>
-
-
-            </div>
-
-            <!-- Footer -->
-            <!-- <div class="footer">
-        <div class="column" id="copyright">
-            &copy; 2020 | The Bodyweight Gym Online<br />
-            <a class="contact" href="mailto:mat@thebodyweightgym.net">mat@thebodyweightgym.net</a>
         </div>
-    </div> -->
-        </div>
-    </div>
     </div>
 
     </div>
