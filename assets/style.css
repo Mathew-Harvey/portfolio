@@ -32,8 +32,13 @@
   border-radius: 50%;
   width: 200px;
   height: auto;
+}
+
+.headShot img {
+  width: 15rem;
+  z-index: 2;
+  transition: all 0.75s ease-out;
   
- 
 }
 
 
