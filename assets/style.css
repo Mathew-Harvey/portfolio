@@ -78,6 +78,9 @@
   visibility: visible;
 }
 
+/* .icon:hover {
+  shadow
+} */
 
 
 /* Background */
@@ -100,7 +103,7 @@ html, body {
 body {
 
   background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,3,51,1) 35%, rgba(0,125,255,0.6057922706175386) 100%);
+  background: linear-gradient(90deg, rgb(0, 23, 36) 10%, rgb(15, 40, 73) 35%, rgba(0, 31, 63, 0.795) 100%);
   font-family: 'Montserrat', sans-serif;
   color: black;
   line-height: 1.3;
